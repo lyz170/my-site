@@ -1,0 +1,16 @@
+## App property info
+app:
+  property:
+    log-path: /app-logs/my-site/${app.property.env}
+    env: local
+
+## Server info
+server:
+  port: 9100
+
+## Spring info
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt
